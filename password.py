@@ -6,7 +6,7 @@ def word(value):
     if(value == password):
         print("Password match")
     else:
-        print("Wrong password")
+        print("Password is wrong")
 
 value=input("Enter the password: ")
 word(value)
